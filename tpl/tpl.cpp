@@ -4,10 +4,10 @@
  */
 
 /**
- * Command line application that takes two input images. 
- * Needle-image and haystack-image. 
+ * Command line application that takes two input images: Needle-image and haystack-image. 
  * The algorithm tries to find areas in haystack-image that resemble needle-image. 
- * Where "resemble" is defined from 0 to 1.
+ * In other words searches small image in big image. Very simplified method.
+ * And returns result how well needle image can match in haystack.
  */
 
 #include "opencv2/core/core.hpp"
